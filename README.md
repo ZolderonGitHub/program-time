@@ -1,5 +1,5 @@
 # program-time
-Program time is a program that calculates time spend on between two calls. Useful to get compilation time.
+Program time is a program that calculates time spent between two calls. Useful to get compilation time.
 ## Usage:
 ```
 program_time -start dump_file.pt
