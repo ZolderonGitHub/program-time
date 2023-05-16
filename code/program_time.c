@@ -137,8 +137,6 @@ inline timestamp get_time_difference(timestamp start, timestamp end)
     result.minute = end.minute - start.minute;
     result.second = end.second - start.second;
     result.milliseconds = end.milliseconds - start.milliseconds;
-    printf("milliseconds elapsed: %i, start: %i, end: %i\n", result.milliseconds,
-            start.milliseconds, end.milliseconds);
     return result;
 }
 
