@@ -8,6 +8,6 @@ call %VCVARSALL_BULLSHIT% x64 > nul
 REM build command
 IF NOT EXIST build mkdir build
 pushd build
-cl -WL -W4 -wd4295 -Od -Fe"program_time" ../code/program_time.c
+cl -WL -W4 -wd4295 -O2 -Fe"program_time" ../code/program_time.c
 popd
 
